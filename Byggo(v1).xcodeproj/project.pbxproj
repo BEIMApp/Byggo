@@ -14,6 +14,15 @@
 		0E967CEA1CA590CD00B214C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E967CE81CA590CD00B214C1 /* LaunchScreen.storyboard */; };
 		0E967CF51CA590CD00B214C1 /* Byggo_v1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CF41CA590CD00B214C1 /* Byggo_v1_Tests.swift */; };
 		0E967D001CA590CD00B214C1 /* Byggo_v1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CFF1CA590CD00B214C1 /* Byggo_v1_UITests.swift */; };
+		0E967D0E1CA590E800B214C1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0E967D0D1CA590E800B214C1 /* Podfile */; };
+		0EC31CDE1CA594E5003ACF01 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */; };
+		0EC31CE11CA59802003ACF01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */; };
+		0EC31CE31CA6DD59003ACF01 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC31CE21CA6DD59003ACF01 /* user.swift */; };
+		0EEC4FC21CA74FAF00F9374F /* TableViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC4FC11CA74FAF00F9374F /* TableViewControler.swift */; };
+		0EEC4FC61CA752DA00F9374F /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC4FC51CA752DA00F9374F /* DetailedViewController.swift */; };
+		0EEC4FC81CA7E56D00F9374F /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC4FC71CA7E56D00F9374F /* cell.swift */; };
+		0EEC4FCA1CA965B200F9374F /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC4FC91CA965B200F9374F /* settings.swift */; };
+		FB20AFA6456725B9478F4F09 /* Pods_Byggo_v1_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D982E91493DD48EA6CEEFEB1 /* Pods_Byggo_v1_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,17 @@
 		0E967CFB1CA590CD00B214C1 /* Byggo(v1)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Byggo(v1)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E967CFF1CA590CD00B214C1 /* Byggo_v1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byggo_v1_UITests.swift; sourceTree = "<group>"; };
 		0E967D011CA590CD00B214C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E967D0D1CA590E800B214C1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
+		0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		0EC31CE21CA6DD59003ACF01 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = user.swift; path = Classes/user.swift; sourceTree = "<group>"; };
+		0EEC4FC11CA74FAF00F9374F /* TableViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControler.swift; sourceTree = "<group>"; };
+		0EEC4FC51CA752DA00F9374F /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		0EEC4FC71CA7E56D00F9374F /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		0EEC4FC91CA965B200F9374F /* settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		25656132FA5865C002A281A7 /* Pods-Byggo(v1).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Byggo(v1).release.xcconfig"; path = "Pods/Target Support Files/Pods-Byggo(v1)/Pods-Byggo(v1).release.xcconfig"; sourceTree = "<group>"; };
+		D982E91493DD48EA6CEEFEB1 /* Pods_Byggo_v1_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Byggo_v1_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAC247A427DA3CB20DE4E9D /* Pods-Byggo(v1).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Byggo(v1).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Byggo(v1)/Pods-Byggo(v1).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC31CE11CA59802003ACF01 /* Alamofire.framework in Frameworks */,
+				0EC31CDE1CA594E5003ACF01 /* SwiftyJSON.framework in Frameworks */,
+				FB20AFA6456725B9478F4F09 /* Pods_Byggo_v1_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +100,13 @@
 		0E967CD31CA590CD00B214C1 = {
 			isa = PBXGroup;
 			children = (
+				0E967D0D1CA590E800B214C1 /* Podfile */,
 				0E967CDE1CA590CD00B214C1 /* Byggo(v1) */,
 				0E967CF31CA590CD00B214C1 /* Byggo(v1)Tests */,
 				0E967CFE1CA590CD00B214C1 /* Byggo(v1)UITests */,
 				0E967CDD1CA590CD00B214C1 /* Products */,
+				978B3B9355C469A43FB16D1A /* Pods */,
+				43B9FFA9B22A34C6B1AA51CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +125,15 @@
 			children = (
 				0E967CDF1CA590CD00B214C1 /* AppDelegate.swift */,
 				0E967CE11CA590CD00B214C1 /* ViewController.swift */,
+				0EEC4FC11CA74FAF00F9374F /* TableViewControler.swift */,
+				0EEC4FC51CA752DA00F9374F /* DetailedViewController.swift */,
 				0E967CE31CA590CD00B214C1 /* Main.storyboard */,
 				0E967CE61CA590CD00B214C1 /* Assets.xcassets */,
 				0E967CE81CA590CD00B214C1 /* LaunchScreen.storyboard */,
 				0E967CEB1CA590CD00B214C1 /* Info.plist */,
+				0EC31CE21CA6DD59003ACF01 /* user.swift */,
+				0EEC4FC71CA7E56D00F9374F /* cell.swift */,
+				0EEC4FC91CA965B200F9374F /* settings.swift */,
 			);
 			path = "Byggo(v1)";
 			sourceTree = "<group>";
@@ -125,6 +156,25 @@
 			path = "Byggo(v1)UITests";
 			sourceTree = "<group>";
 		};
+		43B9FFA9B22A34C6B1AA51CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */,
+				0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */,
+				D982E91493DD48EA6CEEFEB1 /* Pods_Byggo_v1_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		978B3B9355C469A43FB16D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECAC247A427DA3CB20DE4E9D /* Pods-Byggo(v1).debug.xcconfig */,
+				25656132FA5865C002A281A7 /* Pods-Byggo(v1).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E967D041CA590CD00B214C1 /* Build configuration list for PBXNativeTarget "Byggo(v1)" */;
 			buildPhases = (
+				297FDE162E2EF44E958A6B82 /* Check Pods Manifest.lock */,
 				0E967CD81CA590CD00B214C1 /* Sources */,
 				0E967CD91CA590CD00B214C1 /* Frameworks */,
 				0E967CDA1CA590CD00B214C1 /* Resources */,
+				CD881DD06F8FC0EB9B01B7B9 /* Embed Pods Frameworks */,
+				D45EAB75B5B71804C9673BA7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +246,7 @@
 				TargetAttributes = {
 					0E967CDB1CA590CD00B214C1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6U48YHYRVA;
 					};
 					0E967CEF1CA590CD00B214C1 = {
 						CreatedOnToolsVersion = 7.3;
@@ -231,6 +285,7 @@
 			files = (
 				0E967CEA1CA590CD00B214C1 /* LaunchScreen.storyboard in Resources */,
 				0E967CE71CA590CD00B214C1 /* Assets.xcassets in Resources */,
+				0E967D0E1CA590E800B214C1 /* Podfile in Resources */,
 				0E967CE51CA590CD00B214C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +306,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297FDE162E2EF44E958A6B82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD881DD06F8FC0EB9B01B7B9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Byggo(v1)/Pods-Byggo(v1)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D45EAB75B5B71804C9673BA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Byggo(v1)/Pods-Byggo(v1)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E967CD81CA590CD00B214C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E967CE21CA590CD00B214C1 /* ViewController.swift in Sources */,
+				0EEC4FC81CA7E56D00F9374F /* cell.swift in Sources */,
 				0E967CE01CA590CD00B214C1 /* AppDelegate.swift in Sources */,
+				0EEC4FC61CA752DA00F9374F /* DetailedViewController.swift in Sources */,
+				0EEC4FC21CA74FAF00F9374F /* TableViewControler.swift in Sources */,
+				0EEC4FCA1CA965B200F9374F /* settings.swift in Sources */,
+				0EC31CE31CA6DD59003ACF01 /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,23 +507,29 @@
 		};
 		0E967D051CA590CD00B214C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAC247A427DA3CB20DE4E9D /* Pods-Byggo(v1).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Byggo(v1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coboltdev.Byggo-v1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0E967D061CA590CD00B214C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25656132FA5865C002A281A7 /* Pods-Byggo(v1).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Byggo(v1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coboltdev.Byggo-v1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -484,6 +598,7 @@
 				0E967D061CA590CD00B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E967D071CA590CD00B214C1 /* Build configuration list for PBXNativeTarget "Byggo(v1)Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +607,7 @@
 				0E967D091CA590CD00B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E967D0A1CA590CD00B214C1 /* Build configuration list for PBXNativeTarget "Byggo(v1)UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +616,7 @@
 				0E967D0C1CA590CD00B214C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

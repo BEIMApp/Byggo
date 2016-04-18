@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Grønnehaven 1, 3500 Værløse"; ObjectID = "2HW-dh-u9c"; */
+"2HW-dh-u9c.text" = "Grønnehaven 1, 3500 Værløse";
+
+/* Class = "UILabel"; text = "Vælg sag"; ObjectID = "5Vc-fS-XQ7"; */
+"5Vc-fS-XQ7.text" = "Vælg sag";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "6Dv-MM-w4D"; */
+"6Dv-MM-w4D.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Salg: FEE"; ObjectID = "6a7-A2-fQN"; */
+"6a7-A2-fQN.text" = "Salg: FEE";
+
+/* Class = "UIButton"; normalTitle = "Logud"; ObjectID = "AZT-Z7-eVU"; */
+"AZT-Z7-eVU.normalTitle" = "Logud";
+
+/* Class = "UILabel"; text = "ID:   "; ObjectID = "Asq-DF-c6D"; */
+"Asq-DF-c6D.text" = "ID:   ";
+
+/* Class = "UILabel"; text = "Benjamin Eibye"; ObjectID = "DV5-6X-ywM"; */
+"DV5-6X-ywM.text" = "Benjamin Eibye";
+
+/* Class = "UILabel"; text = "Afdeling: Sjælland"; ObjectID = "Kz8-G0-Mvs"; */
+"Kz8-G0-Mvs.text" = "Afdeling: Sjælland";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MgU-3l-plf"; */
+"MgU-3l-plf.text" = "Title";
+
+/* Class = "UIViewController"; title = "Indstillinger"; ObjectID = "Nak-oq-k5R"; */
+"Nak-oq-k5R.title" = "Indstillinger";
+
+/* Class = "UILabel"; text = "Byggo login"; ObjectID = "QTi-pJ-ZHK"; */
+"QTi-pJ-ZHK.text" = "Byggo login";
+
+/* Class = "UIButton"; normalTitle = "Tag Billed"; ObjectID = "S0f-1m-Ivf"; */
+"S0f-1m-Ivf.normalTitle" = "Tag Billed";
+
+/* Class = "UIButton"; normalTitle = "Updater Status"; ObjectID = "TPv-sO-KQa"; */
+"TPv-sO-KQa.normalTitle" = "Updater Status";
+
+/* Class = "UILabel"; text = "Satus: afleveret"; ObjectID = "bx1-9w-jtv"; */
+"bx1-9w-jtv.text" = "Satus: afleveret";
+
+/* Class = "UILabel"; text = "Filer:"; ObjectID = "fDc-zq-IaJ"; */
+"fDc-zq-IaJ.text" = "Filer:";
+
+/* Class = "UINavigationItem"; title = "Vælg sag"; ObjectID = "ip0-TV-dak"; */
+"ip0-TV-dak.title" = "Vælg sag";
+
+/* Class = "UIBarButtonItem"; title = "Indstillinger"; ObjectID = "rId-1Z-ZTd"; */
+"rId-1Z-ZTd.title" = "Indstillinger";
+
+/* Class = "UILabel"; text = "Byg: FEE"; ObjectID = "s3V-zS-9Pp"; */
+"s3V-zS-9Pp.text" = "Byg: FEE";
+
+/* Class = "UILabel"; text = "ID: 1"; ObjectID = "syw-Cp-D6U"; */
+"syw-Cp-D6U.text" = "ID: 1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zyU-Pd-WFl"; */
+"zyU-Pd-WFl.text" = "Label";
