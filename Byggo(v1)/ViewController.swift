@@ -12,6 +12,8 @@ import SwiftyJSON
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    // test
+    
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var status: UILabel!
