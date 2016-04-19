@@ -8,7 +8,7 @@
 
 import UIKit
 
-class filCell: UITableViewCell {
+class filCell: UICollectionViewCell {
 
     @IBOutlet weak var typeImage: UIImageView!
     @IBOutlet weak var filNavn: UILabel!

@@ -17,6 +17,11 @@
 		0E967CF51CA590CD00B214C1 /* Byggo_v1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CF41CA590CD00B214C1 /* Byggo_v1_Tests.swift */; };
 		0E967D001CA590CD00B214C1 /* Byggo_v1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CFF1CA590CD00B214C1 /* Byggo_v1_UITests.swift */; };
 		0E967D0E1CA590E800B214C1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0E967D0D1CA590E800B214C1 /* Podfile */; };
+		0E9F3DFF1CC6B19C00740535 /* excel_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFA1CC6B19C00740535 /* excel_Symbol.png */; };
+		0E9F3E001CC6B19C00740535 /* jpeg_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFB1CC6B19C00740535 /* jpeg_Symbol.png */; };
+		0E9F3E011CC6B19C00740535 /* pdf_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFC1CC6B19C00740535 /* pdf_Symbol.png */; };
+		0E9F3E021CC6B19C00740535 /* png_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFD1CC6B19C00740535 /* png_Symbol.png */; };
+		0E9F3E031CC6B19C00740535 /* ppt_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFE1CC6B19C00740535 /* ppt_Symbol.png */; };
 		0EC31CDE1CA594E5003ACF01 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */; };
 		0EC31CE11CA59802003ACF01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */; };
 		0EC31CE31CA6DD59003ACF01 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC31CE21CA6DD59003ACF01 /* user.swift */; };
@@ -61,6 +66,11 @@
 		0E967CFF1CA590CD00B214C1 /* Byggo_v1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byggo_v1_UITests.swift; sourceTree = "<group>"; };
 		0E967D011CA590CD00B214C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E967D0D1CA590E800B214C1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0E9F3DFA1CC6B19C00740535 /* excel_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = excel_Symbol.png; sourceTree = "<group>"; };
+		0E9F3DFB1CC6B19C00740535 /* jpeg_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jpeg_Symbol.png; sourceTree = "<group>"; };
+		0E9F3DFC1CC6B19C00740535 /* pdf_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf_Symbol.png; sourceTree = "<group>"; };
+		0E9F3DFD1CC6B19C00740535 /* png_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png_Symbol.png; sourceTree = "<group>"; };
+		0E9F3DFE1CC6B19C00740535 /* ppt_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppt_Symbol.png; sourceTree = "<group>"; };
 		0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
 		0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		0EC31CE21CA6DD59003ACF01 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = user.swift; path = Classes/user.swift; sourceTree = "<group>"; };
@@ -140,6 +150,7 @@
 				0EEC4FC91CA965B200F9374F /* settings.swift */,
 				0E5ADB9F1CC6210B00124D50 /* fil.swift */,
 				0E5ADBA11CC626EB00124D50 /* filCell.swift */,
+				0E9F3DF91CC6B15B00740535 /* images */,
 			);
 			path = "Byggo(v1)";
 			sourceTree = "<group>";
@@ -160,6 +171,18 @@
 				0E967D011CA590CD00B214C1 /* Info.plist */,
 			);
 			path = "Byggo(v1)UITests";
+			sourceTree = "<group>";
+		};
+		0E9F3DF91CC6B15B00740535 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0E9F3DFA1CC6B19C00740535 /* excel_Symbol.png */,
+				0E9F3DFB1CC6B19C00740535 /* jpeg_Symbol.png */,
+				0E9F3DFC1CC6B19C00740535 /* pdf_Symbol.png */,
+				0E9F3DFD1CC6B19C00740535 /* png_Symbol.png */,
+				0E9F3DFE1CC6B19C00740535 /* ppt_Symbol.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		43B9FFA9B22A34C6B1AA51CD /* Frameworks */ = {
@@ -290,9 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E967CEA1CA590CD00B214C1 /* LaunchScreen.storyboard in Resources */,
+				0E9F3E001CC6B19C00740535 /* jpeg_Symbol.png in Resources */,
+				0E9F3E011CC6B19C00740535 /* pdf_Symbol.png in Resources */,
+				0E9F3E021CC6B19C00740535 /* png_Symbol.png in Resources */,
 				0E967CE71CA590CD00B214C1 /* Assets.xcassets in Resources */,
+				0E9F3E031CC6B19C00740535 /* ppt_Symbol.png in Resources */,
 				0E967D0E1CA590E800B214C1 /* Podfile in Resources */,
 				0E967CE51CA590CD00B214C1 /* Main.storyboard in Resources */,
+				0E9F3DFF1CC6B19C00740535 /* excel_Symbol.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Byggo(v1)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coboltdev.Byggo-v1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Byggo(v1)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coboltdev.Byggo-v1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";

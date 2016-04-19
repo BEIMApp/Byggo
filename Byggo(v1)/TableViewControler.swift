@@ -64,6 +64,7 @@ class TableViewController: UITableViewController, UISplitViewControllerDelegate 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let myCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UICell
         
+        print(indexPath)
         myCell.adresse.text = publicJSON[indexPath.row]["adresse"].stringValue
         myCell.salg.text = "Salg: \(publicJSON[indexPath.row]["byg"]["salg"].stringValue)"
         myCell.byg.text = "Byg: \(publicJSON[indexPath.row]["byg"]["byggeleder"].stringValue)"

@@ -121,8 +121,20 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.performSegueWithIdentifier("FilListe", sender: self)
     }
     
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        
-//    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+        if segue.identifier == "FilListe" {
+            
+            let index = self.tableView.indexPathForSelectedRow! as NSIndexPath
+            let vc = segue.destinationViewController as! fil
+            
+            vc.sagId = sagId
+            vc.type = tableArrayType[index.row + 1]
+            
+            self.tableView.deselectRowAtIndexPath(index, animated: true)
+            
+        }
+        
+    }
     
 }
