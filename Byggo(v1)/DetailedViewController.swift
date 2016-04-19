@@ -113,15 +113,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell : UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
         
         cell.textLabel!.text = self.tableArray[indexPath.row]
+        
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // self.performSegueWithIdentifier("FilListe", sender: self)
+        self.performSegueWithIdentifier("FilListe", sender: self)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
-    }
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        
+//    }
     
 }

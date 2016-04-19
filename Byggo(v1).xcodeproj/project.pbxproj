@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5ADBA01CC6210B00124D50 /* fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5ADB9F1CC6210B00124D50 /* fil.swift */; };
+		0E5ADBA21CC626EB00124D50 /* filCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5ADBA11CC626EB00124D50 /* filCell.swift */; };
 		0E967CE01CA590CD00B214C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CDF1CA590CD00B214C1 /* AppDelegate.swift */; };
 		0E967CE21CA590CD00B214C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E967CE11CA590CD00B214C1 /* ViewController.swift */; };
 		0E967CE51CA590CD00B214C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E967CE31CA590CD00B214C1 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5ADB9F1CC6210B00124D50 /* fil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fil.swift; sourceTree = "<group>"; };
+		0E5ADBA11CC626EB00124D50 /* filCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filCell.swift; sourceTree = "<group>"; };
 		0E967CDC1CA590CD00B214C1 /* Byggo(v1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Byggo(v1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E967CDF1CA590CD00B214C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E967CE11CA590CD00B214C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				0EC31CE21CA6DD59003ACF01 /* user.swift */,
 				0EEC4FC71CA7E56D00F9374F /* cell.swift */,
 				0EEC4FC91CA965B200F9374F /* settings.swift */,
+				0E5ADB9F1CC6210B00124D50 /* fil.swift */,
+				0E5ADBA11CC626EB00124D50 /* filCell.swift */,
 			);
 			path = "Byggo(v1)";
 			sourceTree = "<group>";
@@ -366,6 +372,8 @@
 				0EEC4FC21CA74FAF00F9374F /* TableViewControler.swift in Sources */,
 				0EEC4FCA1CA965B200F9374F /* settings.swift in Sources */,
 				0EC31CE31CA6DD59003ACF01 /* user.swift in Sources */,
+				0E5ADBA01CC6210B00124D50 /* fil.swift in Sources */,
+				0E5ADBA21CC626EB00124D50 /* filCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
