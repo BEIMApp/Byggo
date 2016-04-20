@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UICollectionViewDelegate {
+class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UICollectionViewDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     var check: Int! = 0
     var adresse: String!
@@ -141,6 +141,26 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         print(indexPath.row)
         
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+        print("image")
+        self.dismissViewControllerAnimated(true, completion: nil)
+        getImageFile = image
+        
+        self.performSegueWithIdentifier("goToImage", sender: self)
+        
+    }
+    
+    @IBAction func tagBilled(sender: AnyObject) {
+    
+        let image = UIImagePickerController()
+        image.delegate = self
+        image.sourceType = UIImagePickerControllerSourceType.Camera
+        image.allowsEditing = false
+        
+        self.presentViewController(image, animated: true, completion: nil)
+    
     }
     
 }

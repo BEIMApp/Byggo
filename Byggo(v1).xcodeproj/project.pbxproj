@@ -23,6 +23,7 @@
 		0E9F3E021CC6B19C00740535 /* png_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFD1CC6B19C00740535 /* png_Symbol.png */; };
 		0E9F3E031CC6B19C00740535 /* ppt_Symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3DFE1CC6B19C00740535 /* ppt_Symbol.png */; };
 		0E9F3E051CC78E6C00740535 /* webView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9F3E041CC78E6C00740535 /* webView.swift */; };
+		0E9F3E0A1CC82C0B00740535 /* biledHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9F3E091CC82C0B00740535 /* biledHandler.swift */; };
 		0EC31CDE1CA594E5003ACF01 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */; };
 		0EC31CE11CA59802003ACF01 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */; };
 		0EC31CE31CA6DD59003ACF01 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC31CE21CA6DD59003ACF01 /* user.swift */; };
@@ -73,6 +74,7 @@
 		0E9F3DFD1CC6B19C00740535 /* png_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png_Symbol.png; sourceTree = "<group>"; };
 		0E9F3DFE1CC6B19C00740535 /* ppt_Symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppt_Symbol.png; sourceTree = "<group>"; };
 		0E9F3E041CC78E6C00740535 /* webView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webView.swift; sourceTree = "<group>"; };
+		0E9F3E091CC82C0B00740535 /* biledHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = biledHandler.swift; sourceTree = "<group>"; };
 		0EC31CDA1CA592CF003ACF01 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/Alamofire.framework"; sourceTree = "<group>"; };
 		0EC31CDB1CA592CF003ACF01 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/Byggo(v1)-bfddcyithfwnrraiygpqyflligbw/Build/Products/Debug-iphonesimulator/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		0EC31CE21CA6DD59003ACF01 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = user.swift; path = Classes/user.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				0E5ADBA11CC626EB00124D50 /* filCell.swift */,
 				0E9F3E041CC78E6C00740535 /* webView.swift */,
 				0E9F3DF91CC6B15B00740535 /* images */,
+				0E9F3E091CC82C0B00740535 /* biledHandler.swift */,
 			);
 			path = "Byggo(v1)";
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				0E967CE21CA590CD00B214C1 /* ViewController.swift in Sources */,
 				0EEC4FC81CA7E56D00F9374F /* cell.swift in Sources */,
 				0E967CE01CA590CD00B214C1 /* AppDelegate.swift in Sources */,
+				0E9F3E0A1CC82C0B00740535 /* biledHandler.swift in Sources */,
 				0EEC4FC61CA752DA00F9374F /* DetailedViewController.swift in Sources */,
 				0EEC4FC21CA74FAF00F9374F /* TableViewControler.swift in Sources */,
 				0EEC4FCA1CA965B200F9374F /* settings.swift in Sources */,

@@ -183,6 +183,9 @@
                                 <state key="normal" title="Tag Billed">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tagBilled:" destination="IfI-Qr-yju" eventType="touchUpInside" id="vup-a1-7xN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Wt-kN-SsF">
                                 <rect key="frame" x="20" y="72" width="633" height="43"/>
@@ -242,11 +245,72 @@
                         <outlet property="tableView" destination="U0n-i9-0qg" id="6q4-Q8-ZCi"/>
                         <outlet property="tagBilledButton" destination="S0f-1m-Ivf" id="lb8-hW-Xe5"/>
                         <segue destination="dRq-Wo-bLP" kind="show" identifier="FilListe" id="C3F-KH-reM"/>
+                        <segue destination="lVk-u0-2aq" kind="show" identifier="goToImage" id="K79-a0-1Kv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZJ5-7f-9Kh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3273.5" y="731"/>
+        </scene>
+        <!--Biled Handler-->
+        <scene sceneID="2wB-8i-JmH">
+            <objects>
+                <viewController id="lVk-u0-2aq" customClass="biledHandler" customModule="Byggo_v1_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TCV-q4-1CJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="cVx-JG-dqz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ozg-cF-a2v">
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NTw-yh-fvT">
+                                <rect key="frame" x="20" y="72" width="663" height="581"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BjC-wf-Nyh">
+                                <rect key="frame" x="285" y="699" width="133" height="49"/>
+                                <color key="backgroundColor" red="0.69803921570000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="XcK-PZ-HFa"/>
+                                </constraints>
+                                <state key="normal" title="Upload">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="send:" destination="lVk-u0-2aq" eventType="touchUpInside" id="by8-BG-vRc"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fil Navn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-ox-7gu">
+                                <rect key="frame" x="126" y="661" width="450" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="SDZ-hy-lMt"/>
+                                    <constraint firstAttribute="height" constant="30" id="nNj-az-WRC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="BjC-wf-Nyh" secondAttribute="bottom" constant="20" symbolic="YES" id="HtO-a0-fAV"/>
+                            <constraint firstItem="BjC-wf-Nyh" firstAttribute="top" secondItem="uQ2-ox-7gu" secondAttribute="bottom" constant="8" symbolic="YES" id="ONZ-DY-hGx"/>
+                            <constraint firstItem="uQ2-ox-7gu" firstAttribute="centerX" secondItem="BjC-wf-Nyh" secondAttribute="centerX" id="U2c-EW-80O"/>
+                            <constraint firstItem="cVx-JG-dqz" firstAttribute="top" secondItem="NTw-yh-fvT" secondAttribute="bottom" constant="115" id="a9T-wc-9OB"/>
+                            <constraint firstItem="NTw-yh-fvT" firstAttribute="leading" secondItem="ozg-cF-a2v" secondAttribute="leadingMargin" id="dLC-br-XTr"/>
+                            <constraint firstItem="NTw-yh-fvT" firstAttribute="trailing" secondItem="ozg-cF-a2v" secondAttribute="trailingMargin" id="kqk-aC-vDe"/>
+                            <constraint firstItem="NTw-yh-fvT" firstAttribute="top" secondItem="TCV-q4-1CJ" secondAttribute="bottom" constant="8" symbolic="YES" id="mNR-yy-0fX"/>
+                            <constraint firstItem="NTw-yh-fvT" firstAttribute="centerX" secondItem="uQ2-ox-7gu" secondAttribute="centerX" id="ta7-BQ-mXG"/>
+                            <constraint firstItem="uQ2-ox-7gu" firstAttribute="top" secondItem="NTw-yh-fvT" secondAttribute="bottom" constant="8" symbolic="YES" id="vGD-Zu-2hh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="NTw-yh-fvT" id="svB-cl-mdx"/>
+                        <outlet property="textField" destination="uQ2-ox-7gu" id="35L-WU-JFo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ak1-ep-zg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4070.5" y="731"/>
         </scene>
         <!--Web View-->
         <scene sceneID="hUz-Za-Dbi">
