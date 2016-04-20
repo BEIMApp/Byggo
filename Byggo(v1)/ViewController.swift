@@ -6,6 +6,7 @@
 //  Copyright © 2016 Benjamin Eibye. All rights reserved.
 //
 
+import Foundation
 import UIKit
 import Alamofire
 import SwiftyJSON
@@ -97,7 +98,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         if username.text != "" && password.text != "" {
             
-            Alamofire.request(.GET, "https://www.byggo.co/ios/user.php", parameters: ["call": 1, "username": username.text!, "password": password.text!])
+            let userName: String = (username.text?.uppercaseString)!
+            
+            Alamofire.request(.GET, "https://www.byggo.co/ios/user.php", parameters: ["call": 1, "username": userName, "password": password.text!])
                 .responseJSON { response in
                     switch response.result {
                     case .Success:

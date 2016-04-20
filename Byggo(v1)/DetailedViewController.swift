@@ -41,17 +41,17 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         self.ID.hidden = true
         
         tableArray.append("Tegninger")
-        tableArrayType.append(0)
-        tableArray.append("Konstruktion")
         tableArrayType.append(1)
-        tableArray.append("Rapporter")
+        tableArray.append("Konstruktion")
         tableArrayType.append(2)
-        tableArray.append("Kontrakter")
+        tableArray.append("Rapporter")
         tableArrayType.append(3)
-        tableArray.append("Billeder")
+        tableArray.append("Kontrakter")
         tableArrayType.append(4)
-        tableArray.append("Andet")
+        tableArray.append("Billeder")
         tableArrayType.append(5)
+        tableArray.append("Andet")
+        tableArrayType.append(6)
         
         self.title = adresse
         
@@ -129,11 +129,17 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let vc = segue.destinationViewController as! fil
             
             vc.sagId = sagId
-            vc.type = tableArrayType[index.row + 1]
+            vc.type = tableArrayType[index.row]
             
             self.tableView.deselectRowAtIndexPath(index, animated: true)
             
         }
+        
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        print(indexPath.row)
         
     }
     

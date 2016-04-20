@@ -248,6 +248,63 @@
             </objects>
             <point key="canvasLocation" x="3273.5" y="731"/>
         </scene>
+        <!--Web View-->
+        <scene sceneID="hUz-Za-Dbi">
+            <objects>
+                <viewController storyboardIdentifier="webView" id="b35-iq-ECA" customClass="webView" customModule="Byggo_v1_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AQm-Ex-ool"/>
+                        <viewControllerLayoutGuide type="bottom" id="HtE-AT-Fyq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OQZ-yy-mWh">
+                        <rect key="frame" x="0.0" y="0.0" width="703" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrt-Zu-Ei3">
+                                <rect key="frame" x="0.0" y="64" width="703" height="660"/>
+                                <color key="backgroundColor" red="0.27843137254901962" green="0.30196078431372547" blue="0.31764705882352939" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUe-FK-rRa">
+                                <rect key="frame" x="0.0" y="724" width="703" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="JpH-MU-utZ"/>
+                                    <barButtonItem systemItem="action" id="RZA-Gm-BcK">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="share:" destination="b35-iq-ECA" id="e5u-si-Q7Q"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="A9g-iB-3nx"/>
+                                    <barButtonItem systemItem="done" id="slF-tY-KEr">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="fullscreen:" destination="b35-iq-ECA" id="fHz-o4-hOD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mrt-Zu-Ei3" firstAttribute="bottom" secondItem="HtE-AT-Fyq" secondAttribute="top" constant="-44" id="9un-1p-KQc"/>
+                            <constraint firstItem="iUe-FK-rRa" firstAttribute="trailing" secondItem="mrt-Zu-Ei3" secondAttribute="trailing" id="GEN-I7-LHE"/>
+                            <constraint firstItem="mrt-Zu-Ei3" firstAttribute="leading" secondItem="OQZ-yy-mWh" secondAttribute="leading" id="TRt-Xi-Ncb"/>
+                            <constraint firstItem="iUe-FK-rRa" firstAttribute="leading" secondItem="mrt-Zu-Ei3" secondAttribute="leading" id="UBd-iT-8Vc"/>
+                            <constraint firstAttribute="trailing" secondItem="mrt-Zu-Ei3" secondAttribute="trailing" id="YF7-JL-yOj"/>
+                            <constraint firstItem="iUe-FK-rRa" firstAttribute="top" secondItem="mrt-Zu-Ei3" secondAttribute="bottom" id="cGm-7J-dvj"/>
+                            <constraint firstItem="mrt-Zu-Ei3" firstAttribute="top" secondItem="AQm-Ex-ool" secondAttribute="bottom" id="hcX-Gh-nA1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="mrt-Zu-Ei3" id="z3J-Ln-r7E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5r-WP-7A6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4065.5" y="1627"/>
+        </scene>
         <!--Fil-->
         <scene sceneID="UZI-Py-5hk">
             <objects>
@@ -306,6 +363,9 @@
                             <outlet property="delegate" destination="dRq-Wo-bLP" id="jRY-b5-jev"/>
                         </connections>
                     </collectionView>
+                    <connections>
+                        <segue destination="b35-iq-ECA" kind="show" identifier="toWebView" id="tnT-ek-nGa"/>
+                    </connections>
                 </collectionViewController>
             </objects>
             <point key="canvasLocation" x="3273.5" y="1627"/>

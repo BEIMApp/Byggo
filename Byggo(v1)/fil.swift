@@ -10,12 +10,15 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class fil: UICollectionViewController, UISplitViewControllerDelegate {
+class fil: UICollectionViewController, UISplitViewControllerDelegate, UIViewControllerTransitioningDelegate {
 
     var sagId = 1
     var type: Int = 2
+    
+    
     var JSONCount: Int = 0
     var publicJSON: JSON = []
+    var tableArray: [String] = []
     
     override func viewDidLoad() {
         // ViewDidLoad Fucntion
@@ -37,8 +40,14 @@ class fil: UICollectionViewController, UISplitViewControllerDelegate {
                 
         }
 
+        tableArray.append("Tegninger")
+        tableArray.append("Konstruktion")
+        tableArray.append("Rapporter")
+        tableArray.append("Kontrakter")
+        tableArray.append("Billeder")
+        tableArray.append("Andet")
         
-        
+        self.title = tableArray[type - 1]
         
     }
     
@@ -58,8 +67,6 @@ class fil: UICollectionViewController, UISplitViewControllerDelegate {
         cell.filNavn.text = publicJSON[indexPath.row]["navn"].stringValue
         
         let filType = publicJSON[indexPath.row]["type"].stringValue
-        
-        // '', '', '', '', '', '', '', 'fw', 'xlsx'
         
         switch filType {
         case "png":
@@ -87,4 +94,31 @@ class fil: UICollectionViewController, UISplitViewControllerDelegate {
         return cell
     }
     
+    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        //let index = self.tableView.indexPathForSelectedRow! as NSIndexPath
+        
+        print(indexPath.row)
+        
+        filId = publicJSON[indexPath.row]["id"].intValue
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let pvc = storyboard.instantiateViewControllerWithIdentifier("webView") as UIViewController
+        
+        pvc.modalPresentationStyle = UIModalPresentationStyle.FullScreen
+        
+        self.presentViewController(pvc, animated: true, completion: nil)
+        
+    }
+    
+    func presentationControllerForPresentedViewController(presented: UIViewController, presentingViewController presenting: UIViewController, sourceViewController source: UIViewController) -> UIPresentationController? {
+        return HalfSizePresentationController(presentedViewController: presented, presentingViewController: presentingViewController!)
+    }
+
+    
+}
+class HalfSizePresentationController : UIPresentationController {
+    override func frameOfPresentedViewInContainerView() -> CGRect {
+        return CGRect(x: 0, y: 0, width: containerView!.bounds.width, height: containerView!.bounds.height/2)
+    }
 }
